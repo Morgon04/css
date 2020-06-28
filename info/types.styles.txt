@@ -1,0 +1,49 @@
+There are three types of Styles we can write
+
+1. Inline
+2. Internal
+3. External
+
+1. Inline 
+    Where you add the styles directly to the html tags
+    
+    For Example:
+    <h1 style="background:red">Get the freedom you deserve.</h1>
+
+2. Internal
+    Where you add the styles in the head tag
+
+    For Example:
+    <head>
+        <style>
+            section {
+                background-color: red;
+            }
+        </style>
+    </head>
+
+    i. What happens here, background-color red will be applied to all sections tag 
+       out there in the page
+
+3. External
+    Where you add the styles in external file and link it to the main html file
+    in the head tag
+
+    For Example:
+    <head>
+        <link rel="stylesheet" href="main.css">
+    </head>
+
+NOTE: 
+
+    We've three types which one to use. let's go for the cons of the types
+    1. Inline
+        Writing inline means you have to write everywhere in each tags. 
+        We'll be writing codes again and again. It's not a good thing
+    2. Internal
+        Writing Internal will save repeated codes. But when we need it different
+        page, we've to write it all again. If we include internal styles and every html
+        has to download codes. Then writing internal is also not good
+    3. External
+        The Final one and the best one. Repeated codes can be removed. Write it in one place
+        and include it anywhere you want. Browser will also do caching. So the external is the best.
