@@ -1,0 +1,70 @@
+Combinator
+    As the name itself suggests that it's a combination of multiple specificity
+
+    Combinator Types
+
+        1. Adjacent Sibling 
+
+            h2 + p {              
+                color: red;
+            }
+
+            <div>
+                <h2></h2>
+                <p> Css Supplied </p>
+                <h3></h3>
+                <p> Not Supplied </p>
+                <h2></h2>
+                <p> Css Supplied </p>
+            </div>
+
+        NOTE:- Adjacent Sibling should come immediately following the parent
+
+        2. General Sibling
+
+            h2 ~ p {
+                color: red;
+            }
+            <div>
+                <p> Not Supplied </p> 
+                <h2></h2>
+                <p> Css Supplied </p>
+                <h2></h2>
+                <h3></h3>
+                <p> Css Supplied </p> 
+            </div>
+        
+        NOTE:- Adjacent Sibling should come after parent not immediately
+        
+        3. Child
+
+            div > p {
+                color: red;
+            }
+
+            <div>
+                <h2></h2>
+                <p> Css Supplied </p>
+                <article>
+                    <p> Not Supplied </p> 
+                </article>
+                <h3></h3>
+                <p> Css Supplied </p> 
+            </div>
+        NOTE:- Adjacent Sibling should come after parent not immediately
+
+        4. Descendant 
+
+            div p {
+                color: red;
+            }
+
+            <div>
+                <h2></h2>
+                <p> Css Supplied </p>
+                <article>
+                    <p> Css Supplied </p> 
+                </article>
+                <h3></h3>
+                <p> Css Supplied </p> 
+            </div>

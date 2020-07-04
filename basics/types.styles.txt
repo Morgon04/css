@@ -36,7 +36,7 @@ There are three types of Styles we can write
 
 NOTE: 
 
-    We've three types which one to use. let's go for the cons of the types
+    We've three types and which one to use. let's go for the cons of the types
     1. Inline
         Writing inline means you have to write everywhere in each tags. 
         We'll be writing codes again and again. It's not a good thing

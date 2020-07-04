@@ -1,0 +1,71 @@
+Selectors
+    What do you mean by selectors, it's way identifying dom elements
+    It has types and follows
+        1. Elements
+        2. Class
+        3. Universal (Rarely Used One)
+        4. IDs (Set style to one specific element)
+        5. Attributes
+
+1. Elements
+    In html, elements are individual component of HTML document, for Example it has 
+    
+    <h1></h1> -> Container Tag -> Tag will contain something btw them -> <h1> Hello </h1>
+    <br/> -> Empty Tag -> Tags will be empty
+
+    So how to use elements for css, follow the below Example
+
+    h1 {
+        color: red
+    }
+
+2. Class
+    Class is also called attributes of the elements in the html. Using class we can write css much more
+    efficently rather than using elements
+    
+    To do that we need include class attribute in the element followed by the classname
+
+    For Example 
+
+    i. Elements (using cabab case name for classname is highly recommended)
+        <h1 class="header-tags> Hello </h1>
+
+    ii. css
+        .header-tags {
+            color: yellow;
+        }
+
+3. Universal
+    The word itself has meaning, applying css to all. Usauly done with *. People Rarely use this
+
+    For Example :-
+    * {
+        color: red;
+    }
+
+4. IDs
+    Set Style one specific element as IDs are unique
+
+    For Example :-
+    HTML
+    <h1 id="example-four"> Hello </h1>
+    
+    css
+    #example-four {
+        color: purple
+    }
+
+5. Attributes
+    The final one is Attribute to set equal style to all elements with same attribute
+
+    For Example :-
+    HTML
+    <button disabled> I'm Disabled </button>
+
+    CSS
+    [disbaled] {
+        background: grey
+    }
+
+
+

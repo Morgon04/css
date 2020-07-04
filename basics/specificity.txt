@@ -1,0 +1,24 @@
+CSS
+    
+    Cascading Style Sheet
+        Apply multiple rules to the same element
+
+    SPECIFICITY
+        Resolving Conflict arising for multiple rules
+
+            Inline
+            ^
+            |
+            IDs
+            ^
+            |
+            Class
+            ^
+            |
+            Element
+            ^
+            |
+            Attribute
+            ^
+            |
+            Universal

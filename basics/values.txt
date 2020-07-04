@@ -1,0 +1,18 @@
+Values Types
+
+    1. Predefined
+    
+        display, overflow
+
+    2. Colors
+
+        background, color
+
+    3. Length, Sizes and Numbers
+
+        px, % and number
+
+    4. Functions
+
+        background-url()
+        transform()
