@@ -1,0 +1,2 @@
+1. box-sizing: content-box | border-box; 
+    by default content-box but using border-box will be better when we use width and border/padding

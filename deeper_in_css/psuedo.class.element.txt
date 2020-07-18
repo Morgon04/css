@@ -1,0 +1,14 @@
+There are two types in Psuedo Thing
+
+1. Psuedo Class
+
+2. Psuedo Element
+
+
+        Psuedo Class   -> specific state of the Element
+        : class name                    
+                                |
+                                |
+
+        Psuedo Element -> specific part of the Element
+        :: element name

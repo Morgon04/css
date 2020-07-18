@@ -1,0 +1,3 @@
+Margin Collapsing
+
+    When we have same margin for two elements. then higher one wi

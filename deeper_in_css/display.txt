@@ -1,0 +1,9 @@
+Display
+
+    1. Block (takes the entire block i.e full width)
+    2. Inline (align items in a single line)
+    3. None (removes visibility from the screen but still can be seen in DOM)
+
+
+    1. Block
+        

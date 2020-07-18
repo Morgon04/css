@@ -1,0 +1,14 @@
+BOX MODEL
+
+    In css, box model means wrapping up content inside the box.
+
+        Margin
+        ^
+        |
+        Border
+        ^
+        |
+        Padding
+        ^
+        |
+        Content - Display Message

@@ -1,0 +1,11 @@
+When you add display: inline-block to a tag and It starts considering White Spaces.
+
+For Example
+
+    <nav>
+    </nav> 
+    <div>
+    </div>
+
+    NOTE: Here div comes after nav i.e in next line but that's also considered as White Space By
+    Display: Inline-block.
